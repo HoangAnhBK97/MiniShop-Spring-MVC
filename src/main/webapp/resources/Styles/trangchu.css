@@ -1,0 +1,186 @@
+@charset "UTF-8";
+#header {
+	height: 100%;
+	width:102%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/trangchubackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  
+}
+.none-nav {
+	background: none !important;
+	border: none !important;
+}
+#logo{
+	color: white; 
+   font: bold 30px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+}
+
+#logo:hover {
+	position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902, 
+                4px 4px #fe4902, 
+                5px 5px #fe4902, 
+                6px 6px #fe4902;
+}
+.nav-center{
+	margin-left: 24% !important;
+}
+.navbar-nav a{
+	color: white !important	;
+}
+
+ul {
+	font-family: Roboto;
+}
+.dropdown-menu a{
+	background: none !important;
+	color: black !important;
+	font-family: Roboto !important;
+}
+
+.dropdown-menu a:hover{
+	background: #e7e7e7 !important;
+	color: black !important;
+	font-family: Roboto !important;
+}
+
+.open > a{
+	background: none !important;
+}
+.event-header{
+	text-align: center;
+	margin-top: 280px;
+}
+
+.event-header span{
+	color: white;
+}
+
+@media (max-width: 575.98px) { 
+	.nav-center{
+		margin-left: 0 !important;
+	}
+	#header {
+	height: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/trangchubackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size:contain;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.nav-center{
+			margin-left: 0 !important;
+		}
+		#header {
+	height: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/trangchubackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size:contain;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.nav-center{
+		margin-left: 6% !important;
+	}
+#header {
+	height: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/trangchubackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size:contain;
+}
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	height: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/trangchubackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+#info{
+	margin-top:48px;
+}
+
+#info img{
+	width: 48px;
+	height: 48px;
+}
+.content{
+	text-align: center;
+}
+
+#sanphamhot{
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 32px;
+	margin-bottom: 48px;
+}
+
+#sanpham {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.motsanpham{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin-left:5px;
+}
+
+.motsanpham button{
+	margin: 10px 0px;
+}
+
+.tensanpham{
+	font-size: 20px;
+    font-weight: 700;	
+}
+
+.giasanpham{
+	font-weight: 500;
+	font-size: 17px;
+	color: red;
+}
+
